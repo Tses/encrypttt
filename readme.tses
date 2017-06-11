@@ -1,0 +1,19 @@
+http://santuario.apache.org/
+
+<dependency>
+    <groupId>org.apache.santuario</groupId>
+    <artifactId>xmlsec</artifactId>
+    <version>2.0.8</version>
+</dependency>    
+
+
+
+Code
+https://issues.apache.org/jira/browse/SANTUARIO-419
+
+
+Load certificate file into Certificate Object
+https://stackoverflow.com/questions/14560489/load-certificate-file-into-certificate-object
+
+Obtaining public key from certificate
+https://stackoverflow.com/questions/6358555/obtaining-public-key-from-certificate

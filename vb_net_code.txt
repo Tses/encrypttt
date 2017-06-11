@@ -1,0 +1,22 @@
+Public Shared Function EncryptXML(ByVal Doc As XmlDocument, ByVal ElementToEncrypt As String, ByVal Cert As X509Certificate2) As XmlDocument
+
+        If Doc Is Nothing Then
+            Throw New ArgumentNullException("Doc")
+        End If
+        If ElementToEncrypt Is Nothing Then
+            Throw New ArgumentNullException("ElementToEncrypt")
+        End If
+        If Cert Is Nothing Then
+            Throw New ArgumentNullException("Cert")
+        End If
+        Dim Result As New XmlDocument
+        Result = Doc
+        Dim elementEncrypt As XmlElement = Result.GetElementsByTagName(ElementToEncrypt)(0)
+        If ElementToEncrypt Is Nothing Then
+            Throw New XmlException("The specified element was not found")
+        End If
+        Dim eXml As New EncryptedXml()
+        Dim edElement As EncryptedData = eXml.Encrypt(elementEncrypt, Cert)
+        EncryptedXml.ReplaceElement(elementEncrypt, edElement, False)
+        Return Result
+    End Function

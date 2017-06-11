@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" xmlns="http://www.w3.org/2001/04/xmlenc#">
+	<EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+	<KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<EncryptedKey xmlns="http://www.w3.org/2001/04/xmlenc#">
+			<EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-1_5" />
+			<KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+				<X509Data>
+					<X509Certificate>mCIIMQDNjUEtOdWgvWar5A44zQ7uwWMqc6jp+8hz4cM8Ph3QVPolQ0JCcuahnv5XUgnC9XR1+ofpmJ3ZMvp6MaqVZCD4qcA0fwrupiYKFgHI+goFRR4MxrLNONhSV3aX7PwnAQXlHBBHVkMmN06xraQVW81wG1ZLGeyOjg6WC0CUOU1vVOWxHMG2nnWD/an585TSnyBtNgeu6UCgciorjjJdJTqys24OqSkViscMnvb+Ng==</X509Certificate>
+				</X509Data>
+			</KeyInfo>
+			<CipherData>
+				<CipherValue>G03nxYQvSW8eu5FnECcEPe6BUiPb6qFGjE4FFujkuSPbl/lTlyebn/61iJUFE14/d8LMD/oDDLiteo6pyiRmkbTB+hlfwB/nVh0MCNPF4Axg==</CipherValue>
+			</CipherData>
+		</EncryptedKey>
+	</KeyInfo>
+	<CipherData>
+		<CipherValue>s8I9rduwsqFB9+JobHsSIp5Ml4pMGAXFEvxzH/x6HDB2JZN2s6+XkRXLxkffo76M4rkOvNHnH3dW0K+8XZhQTqPlMevOCFPZq6VK5LowwLNT3Gen/njY0+Y+KYnH+n2eqzHKaKBnsRjvVfWQmkB57qYc9WpWHc9YOjWuceIcFMmailWchUyM7WkJdrLMP6CgkK6QjO45+NXS6Gc7oAYRcS+dcKqxtBAvGU9Qu35WYqQuyqpm1iz95Hbny1KJHBdUOlApa8xUXoIfGzO52D1bJU2NtsuByM7dvWV5Xgv/XpkoU13Rrm2lV1NZOYkroyrUpuivYMEW1ZT+uMlsdw+r3Si7eQ3XkU/iROpgKmythcq7nt80jjUapkA=</CipherValue>
+	</CipherData>
+</EncryptedData>
